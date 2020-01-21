@@ -1,0 +1,30 @@
+.form__search{
+    text-align: center;
+    margin-bottom: rem(10);
+    margin-top: rem(10);
+    @include tablet {
+        margin-bottom: rem(20);
+    }
+    .input__search{
+        width: rem(200);
+        height: rem(30);
+        border: 1px solid #1FB0C7;
+        background-color: black;
+        color:  #1FB0C7;
+        padding: rem(6);
+        @include tablet{
+            width: rem(500);
+            height: rem(40);
+        }
+        
+    }
+    .select__radio{
+        color: blanchedalmond;
+        padding: rem(5);
+        margin-top: rem(10);
+        .radio__label{
+            padding-right: rem(14);
+            padding-left: rem(8);
+        }
+    }
+}
