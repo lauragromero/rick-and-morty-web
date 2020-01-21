@@ -5,8 +5,10 @@ import portalrick from '../images/portalrick.png';
 const Header=()=>{
     return(
         <div className="header">
-            <img className="header__logo" src={Rick_and_Morty_logo} alt="Rick and Morty"/>
-            <img className="header__img" src={portalrick} alt="portal"/>
+            <div className="header__logo"><img  src={Rick_and_Morty_logo} alt="Rick and Morty"/></div>
+            <div className="header__img"> <img src={portalrick} alt="portal"/></div>
+            
+            
 
         </div>
     )
